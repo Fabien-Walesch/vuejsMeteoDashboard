@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <div id="nav-bar">
+      <ul>
+        <li><router-link to="/">Accueil</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
+        <li><router-link to="/credits">Crédits</router-link></li>
+      </ul>
+    </div>
     <img src="./assets/logo.png">
     <router-view></router-view> 
   </div>

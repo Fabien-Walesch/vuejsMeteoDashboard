@@ -8,6 +8,15 @@ const router = new VueRouter({
   routes: [{
     path: '/',
     components: require ('./homePage/homePage.vue')
+  },{
+    path:'/contact',
+    components: require ('./contactPage/contactPage.vue')
+  },{
+    path:'/credits',
+    components: require ('./creditPage/creditPage.vue')
+  },{
+    path : '*',
+    redirect:'/'
   }]
 })
 
