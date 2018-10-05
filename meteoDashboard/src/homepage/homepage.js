@@ -1,5 +1,5 @@
 export default {
-  name: 'homepage',
+  name: 'home-page',
   components: {},
   props: [],
   data () {

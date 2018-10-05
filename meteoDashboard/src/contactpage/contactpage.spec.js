@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import ContactpageComponent from './index.vue';
+import ContactPageComponent from './contactPage.vue';
 
 // Here are some Jasmine 2.0 tests, though you can
 // use any test runner / assertion library combo you prefer

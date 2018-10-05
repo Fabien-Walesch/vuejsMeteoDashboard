@@ -1,5 +1,5 @@
 export default {
-  name: 'creditpage',
+  name: 'credit-page',
   components: {},
   props: [],
   data () {

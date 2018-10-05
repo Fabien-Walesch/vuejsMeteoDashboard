@@ -1,5 +1,5 @@
 export default {
-  name: 'contactpage',
+  name: 'contact-page',
   components: {},
   props: [],
   data () {
