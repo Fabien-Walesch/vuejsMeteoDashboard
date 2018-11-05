@@ -19,7 +19,9 @@
         <h1>Weather App Dashboard</h1>
       </div>
     </header>
-    <router-view></router-view>
+    <transition name="router-anim" enter-active-class="animated fadeIn faster">
+      <router-view></router-view>
+    </transition>
     <footer>
       <p>Fabien Walesch Design © 2018</p>
     </footer> 
@@ -34,4 +36,5 @@ export default {
 
 <style lang="scss">
 @import "./assets/scss/style.scss";
+
 </style>

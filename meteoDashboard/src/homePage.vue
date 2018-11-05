@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
 
   <main class="home-page">
     <section id="search-bar">
@@ -24,7 +24,7 @@
 
 </template>
 
-<script lang="js">
+<script>
   export default  {
     name: 'home-page',
     props: [],
