@@ -15,7 +15,7 @@
     </nav>
     <header>
       <div id="logo">
-        <img src="./assets/logo-weatherapp.png" alt="logo weatherapp dashboard"/>
+        <img src="./assets/img/logo-weatherapp.png" alt="logo weatherapp dashboard"/>
         <h1>Weather App Dashboard</h1>
       </div>
     </header>
@@ -33,5 +33,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./scss/style.scss";
+@import "./assets/scss/style.scss";
 </style>

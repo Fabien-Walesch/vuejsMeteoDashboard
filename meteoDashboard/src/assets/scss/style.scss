@@ -46,6 +46,7 @@ html {
 }
 
 // Element style
+
 // Nav style
 #menuToggle {
   display: block;
@@ -159,7 +160,7 @@ header {
     }
   }
 }
-main {
+.home-page {
   width: $width;
   text-align: center;
   #search-bar {
@@ -180,6 +181,13 @@ main {
       margin-right: 5px;
       padding-left: 10px;
     }
+    input:focus{
+      background-color: rgba(255, 255, 255, .3);
+      @include transition(background .5s);
+    }
+    ::placeholder{
+      color: $grey;
+      }
     // Button Style
     .button {
       height: 35px;

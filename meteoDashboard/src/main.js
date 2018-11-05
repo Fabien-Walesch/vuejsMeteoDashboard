@@ -7,13 +7,13 @@ const router = new VueRouter({
   mode: 'history',
   routes: [{
     path: '/',
-    components: require ('./homePage/homePage.vue')
+    components: require ('./homePage.vue')
   },{
     path:'/contact',
-    components: require ('./contactPage/contactPage.vue')
+    components: require ('./contactPage.vue')
   },{
     path:'/credits',
-    components: require ('./creditPage/creditPage.vue')
+    components: require ('./creditPage.vue')
   },{
     path : '*',
     redirect:'/'
